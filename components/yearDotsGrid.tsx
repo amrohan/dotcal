@@ -47,10 +47,10 @@ export default function YearDotCalendar() {
               <TooltipTrigger asChild>
                 <div
                   className={`relative w-2.5 h-2.5 rounded-full cursor-pointer transition-transform duration-200 hover:scale-150 ${isCurrentDay
-                      ? "dark:bg-white bg-zinc-900"
+                      ? " bg-blue-500"
                       : isPastDay
-                        ? "dark:bg-zinc-800 bg-zinc-200"
-                        : "dark:bg-zinc-600 bg-gray-300"
+                        ? "dark:bg-gray-700 bg-gray-100"
+                        : "dark:bg-gray-400 bg-gray-300"
                     }`}
                 ></div>
               </TooltipTrigger>
