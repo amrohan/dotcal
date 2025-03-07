@@ -46,11 +46,11 @@ export default function YearDotCalendar() {
             <Tooltip key={index}>
               <TooltipTrigger asChild>
                 <div
-                  className={`relative w-2.5 h-2.5 rounded-full ${isCurrentDay
+                  className={`relative w-2.5 h-2.5 rounded-full cursor-pointer transition-transform duration-200 hover:scale-150 ${isCurrentDay
                       ? "dark:bg-green-500 bg-zinc-900"
                       : isPastDay
                         ? "dark:bg-zinc-700 bg-zinc-200"
-                        : "bg-zinc-300 "
+                        : "bg-zinc-300"
                     }`}
                 >
                   {/* {isCurrentDay && ( */}
