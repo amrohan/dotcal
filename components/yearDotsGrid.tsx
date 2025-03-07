@@ -27,7 +27,7 @@ export default function YearDotCalendar() {
     <div className="flex flex-col items-center mt-4 px-2">
       {/* Current Date and Progress */}
       <div className="mb-6 text-center">
-        <div className="text-xl md:text-4xl mb-1 font-bold dark:text-white">
+        <div className="text-2xl md:text-4xl mb-1 font-bold dark:text-white">
           {currentDateFormatted}
         </div>
         <div className="text-sm text-gray-500 dark:text-gray-300">
