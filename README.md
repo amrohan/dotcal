@@ -16,7 +16,7 @@ Dotcal provides a unique way to view your year at a glance:
 
 ## Demo
 
-Check out the live demo here: [https://dotcal.example.com](https://dotcal.example.com)
+Check out the live demo here: [https://dotcal.vercel.app](https://dotcal.vercel.app)
 
 ## Screenshots
 
@@ -29,7 +29,7 @@ To run Dotcal locally, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/dotcal.git
+   git clone https://github.com/amrohan/dotcal.git
    cd dotcal
    ```
 
