@@ -27,10 +27,10 @@ export default function DayDetailsModal({
     >
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>
+          <DialogTitle className="text-start">
             {selectedDate ? format(selectedDate, "EEEE, MMMM d, yyyy") : ""}
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription className="text-start">
             Information regarding this day in progress...
           </DialogDescription>
         </DialogHeader>
