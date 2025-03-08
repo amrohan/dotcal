@@ -34,7 +34,7 @@ export default function YearDotCalendar() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-4 px-2">
+    <div className="flex flex-col items-center mt-4">
       {/* Current Date and Progress */}
       <div className="mb-6 text-center">
         <div className="text-2xl md:text-4xl mb-1 font-bold dark:text-white">
@@ -46,7 +46,7 @@ export default function YearDotCalendar() {
       </div>
 
       {/* Dot Calendar */}
-      <div className="flex flex-wrap gap-2.5 justify-start">
+      <div className="flex flex-wrap gap-2.5 justify-start ml-1">
         {days.map((day, index) => {
           const isCurrentDay = isToday(day);
           const isPastDay = isPast(day) && !isCurrentDay;

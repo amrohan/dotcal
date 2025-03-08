@@ -3,8 +3,8 @@ import YearDotCalendar from "@/components/yearDotsGrid";
 
 export default function Home() {
   return (
-    <section className="container max-w-5xl mx-auto">
-      <nav className="h-20 flex justify-end items-center px-4">
+    <section className="container max-w-5xl mx-auto px-2">
+      <nav className="h-20 flex justify-end items-center">
         <ModeToggle />
       </nav>
       <YearDotCalendar />
