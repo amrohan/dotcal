@@ -13,7 +13,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import DayDetailsModal from "./dayDetailsModal";
+import DayDetailsModal from "./dayDetailsDrawer";
 
 export default function YearDotCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
